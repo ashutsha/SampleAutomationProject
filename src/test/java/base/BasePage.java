@@ -35,6 +35,8 @@ public class BasePage extends DriverFactory {
 		this.wait = new WebDriverWait(driver, 15);
 		jsExecutor = ((JavascriptExecutor) driver);
 	}
+	//***********************test@@@@@@
+	//***********************
 	//***********************
 
 	/******************9****************************************************************

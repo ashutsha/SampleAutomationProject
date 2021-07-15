@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 1834243100,
+  "duration": 4064463200,
   "status": "passed"
 });
 formatter.scenario({
@@ -76,53 +76,53 @@ formatter.match({
   "location": "ContactUsSteps.i_access_webdriveruniversity_contact_us_form()"
 });
 formatter.result({
-  "duration": 2087386600,
+  "duration": 280518800,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsSteps.i_enter_a_valid_firstname()"
 });
 formatter.result({
-  "duration": 321470900,
+  "duration": 225419900,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsSteps.i_enter_a_valid_last_name(DataTable)"
 });
 formatter.result({
-  "duration": 274384300,
+  "duration": 153798199,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsSteps.i_enter_a_valid_email_address()"
 });
 formatter.result({
-  "duration": 280725900,
+  "duration": 171594401,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsSteps.i_enter_comments(DataTable)"
 });
 formatter.result({
-  "duration": 282369000,
+  "duration": 172127800,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsSteps.i_click_on_the_submit_button()"
 });
 formatter.result({
-  "duration": 1683462400,
+  "duration": 736086300,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactUsSteps.the_information_should_successfully_be_submitted_via_the_contact_us_form()"
 });
 formatter.result({
-  "duration": 80045900,
+  "duration": 45309801,
   "status": "passed"
 });
 formatter.after({
-  "duration": 671639900,
+  "duration": 712822299,
   "status": "passed"
 });
 formatter.uri("products.feature");
@@ -187,7 +187,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1226062700,
+  "duration": 1133813899,
   "status": "passed"
 });
 formatter.scenario({
@@ -226,31 +226,31 @@ formatter.match({
   "location": "ProductsSteps.i_have_naviagted_to_website(String)"
 });
 formatter.result({
-  "duration": 331172400,
+  "duration": 309146099,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductsSteps.i_click_on_the_button_webdriver_university_site()"
 });
 formatter.result({
-  "duration": 121666500,
+  "duration": 104357500,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductsSteps.i_should_be_presented_with_the_a_promo_alert()"
 });
 formatter.result({
-  "duration": 15543651600,
-  "error_message": "java.lang.AssertionError: WebElement is NOT visible, Exception: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.xpath: //.[contains(text(),\u0027NEWCUSTOMER\u0027)]\u0027 (tried for 15 second(s) with 500 milliseconds interval)\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat base.BasePage.WaitUntilWebElementIsVisible(BasePage.java:234)\r\n\tat pageObjects.Products_Page.validateLink(Products_Page.java:45)\r\n\tat step_definitions.ProductsSteps.i_should_be_presented_with_the_a_promo_alert(ProductsSteps.java:28)\r\n\tat ✽.Then I should be presented with the a promo alert(products.feature:7)\r\n",
+  "duration": 15500693001,
+  "error_message": "java.lang.AssertionError: WebElement is NOT visible, Exception: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.xpath: //.[contains(text(),\u0027NEWCUSTOMER\u0027)]\u0027 (tried for 15 second(s) with 500 milliseconds interval)\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat base.BasePage.WaitUntilWebElementIsVisible(BasePage.java:235)\r\n\tat pageObjects.Products_Page.validateLink(Products_Page.java:45)\r\n\tat step_definitions.ProductsSteps.i_should_be_presented_with_the_a_promo_alert(ProductsSteps.java:28)\r\n\tat ✽.Then I should be presented with the a promo alert(products.feature:7)\r\n",
   "status": "failed"
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 1032502300,
+  "duration": 837864200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1262751800,
+  "duration": 1151234600,
   "status": "passed"
 });
 formatter.scenario({
@@ -289,27 +289,27 @@ formatter.match({
   "location": "ProductsSteps.i_have_naviagted_to_website(String)"
 });
 formatter.result({
-  "duration": 390693500,
+  "duration": 296476200,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductsSteps.i_click_on_the_button_webdriver_university_site()"
 });
 formatter.result({
-  "duration": 107381400,
+  "duration": 118751100,
   "status": "passed"
 });
 formatter.match({
   "location": "ProductsSteps.i_should_be_presented_with_the_a_promo_alert()"
 });
 formatter.result({
-  "duration": 15484426400,
-  "error_message": "java.lang.AssertionError: WebElement is NOT visible, Exception: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.xpath: //.[contains(text(),\u0027NEWCUSTOMER\u0027)]\u0027 (tried for 15 second(s) with 500 milliseconds interval)\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat base.BasePage.WaitUntilWebElementIsVisible(BasePage.java:234)\r\n\tat pageObjects.Products_Page.validateLink(Products_Page.java:45)\r\n\tat step_definitions.ProductsSteps.i_should_be_presented_with_the_a_promo_alert(ProductsSteps.java:28)\r\n\tat ✽.Then I should be presented with the a promo alert(products.feature:7)\r\n",
+  "duration": 15478204500,
+  "error_message": "java.lang.AssertionError: WebElement is NOT visible, Exception: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.xpath: //.[contains(text(),\u0027NEWCUSTOMER\u0027)]\u0027 (tried for 15 second(s) with 500 milliseconds interval)\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat base.BasePage.WaitUntilWebElementIsVisible(BasePage.java:235)\r\n\tat pageObjects.Products_Page.validateLink(Products_Page.java:45)\r\n\tat step_definitions.ProductsSteps.i_should_be_presented_with_the_a_promo_alert(ProductsSteps.java:28)\r\n\tat ✽.Then I should be presented with the a promo alert(products.feature:7)\r\n",
   "status": "failed"
 });
 formatter.embedding("image/png", "embedded1.png");
 formatter.after({
-  "duration": 965599900,
+  "duration": 795967501,
   "status": "passed"
 });
 });
