@@ -35,6 +35,7 @@ public class BasePage extends DriverFactory {
 		this.wait = new WebDriverWait(driver, 15);
 		jsExecutor = ((JavascriptExecutor) driver);
 	}
+	//***********************
 
 	/******************9****************************************************************
 	 **CLICK METHODS
